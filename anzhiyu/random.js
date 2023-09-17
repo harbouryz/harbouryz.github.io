@@ -1,0 +1,1 @@
+var posts=["2023/09/17/地毯填补问题/","2023/09/14/暴力枚举三角/","2023/09/15/数楼梯/","2023/09/14/质数回文/","2023/09/14/递归解压密码/","2023/09/14/递推覆盖墙壁/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
